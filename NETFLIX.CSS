@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 1px 0;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    height: 100px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h2{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+
+}
+.container{
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: black;
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    width: 600px;
+    height: 500px;         
+    transform: translate(-100%,-50%);      
+    padding: 20px;
+    box-shadow:inset 5px 5px  red;
+  }
+  .container1{
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: black;
+    position: absolute;
+    top: 140%;
+    left: 75%;
+    width: 500px;
+    height: 300px;         
+    transform: translate(-50%,-50%);      
+    padding: 20px;
+    box-shadow:inset 5px 5px red;
+  }
+  .container1 button{
+      color: black;
+      background-color: gold;
+      border-radius: 30px;
+      border: 0;
+      position: relative;
+      top: 10%;
+      left: 25%;
+      padding: 15px 50px;
+      font-size: 16px;
+      font-weight: bolder;
+      outline: 0;
+      cursor: pointer;
+  }
+  .container1 h6{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+} 
+.container1 button.btn{
+    color: black;
+    background-color: red;
+    border-radius: 30px;
+    border: 0;
+    position: relative;
+    top: 27%;
+    left: 25%;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    outline: 0;
+    cursor: pointer;
+}
+.container2{
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: black;
+    position: absolute;
+    top: 196%;
+    left: 75%;
+    width: 500px;
+    height: 300px;         
+    transform: translate(-50%,-50%);      
+    padding: 20px;
+    box-shadow:inset 5px 5px red;
+  }
+  .container2 img{
+    margin-top: -30px;
+    margin-left: 125px;
+  }
+  .logo-btn{
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 225px;
+    height: 10px;
+   background-color: black;
+    border-radius: 0px;
+  }
+  .logo-btn1{
+    margin-top: -100px;
+    margin-left: 230px;
+    background-color: black;;
+    width: 225px;
+    height: 70px;
+    padding: 30px;
+    border-radius: 2px;
+  }
+  .logo-btn img{
+    padding: 10px;
+    width: 250px;
+    height: 130px;
+    margin-top: -80px;
+    margin-left: -80px;
+  }
+  .logo-btn1 img{
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin-top: -129px;
+    margin-left: -50px;
+  }
+ 
+.wrapper{
+    width: 1200px;
+    margin: 5% auto;
+    margin-left: -700px;
+}
+.plan h1{
+    margin-top: 70px ;
+    margin-left: -400px;
+    width: 600px;
+    font-size: 70px;
+}
+.single-price{ 
+    width: 33%;
+    height: 540px;
+    background: #262626;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+.price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.deals{
+    margin-top: 10%;
+}
+
+ .single-price h1{
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+    text-decoration: underline red;
+ }
+ .price h2{
+    font-size: 30px;
+    margin-top: 45px;
+    color: #fff;
+    
+ }
+ 
+ 
+ .single-price a{
+    text-decoration: none;
+    background: #da4357;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+ 
+  .single-price1{
+    border-color: white;
+  }
+  .single-price1{
+    width: 33%;
+    height: 535px;
+    background: #da4357;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0);
+    z-index: 1;
+    border-radius: 25px;
+    float: left;
+    margin-top: -10px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+.price1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.single-price1 h1{
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+    text-decoration: underline;
+ }
+ .price1 h2{
+    font-size: 30px;
+    margin-top: 45px;
+    color: black;
+  
+ }
+ .single-price1 a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+
+ .accordion{
+    text-align: center center;
+    margin-top: 60px;
+    margin-left: -500px;
+ }
+ .questions h1{
+    margin-top: 650px;
+    margin-left: -450px;
+    width: 900px;
+    font-size: 70px;
+ }
+ .accordion-button{
+    font-size: 35px;
+ }
+  .accordion-body{
+    font-size: x-large;
+ }
+ 
